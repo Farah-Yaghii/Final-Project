@@ -1,0 +1,715 @@
+/*
+Theme Coder : Farah Yaghi 
+ First Color : #08526d; TERQUAS
+ secand color :#ec1c23;
+
+ REPLACE COLOR ONE TO : #0facef; ;
+ 
+ */
+
+ /* Start Upper Bar */
+
+ body{
+ 	
+
+ }
+
+ .row {
+ margin: 0!important;
+
+ }
+.upper-bar{
+	background-color:#0facef;
+	color: #FFF;
+	
+}
+.upper-bar .info{
+	margin: 0;
+}
+@media (max-width: 576px){
+	.upper-bar .info:first-child{
+    margin-bottom: 0;
+}
+
+}
+
+.upper-bar span{
+	color: #FFF;
+	font-size: 15px;
+}
+.butn-appoitnment{
+	display: inline-block;
+	margin: auto;
+}
+.link-appoitnment{
+ color: #ec1c23;
+ text-decoration: none;
+
+}
+ /* End Upper Bar */
+
+ /* Start navbar */
+ .navbar-brand > span {
+	font-size: 35px;
+}
+
+.navbar-brand span:first-child{
+ font-weight: bold;
+  color: #0facef;
+  }
+
+.navbar-brand span:last-child{
+  color: #ec1c23;
+  
+
+  }
+
+  .navbar-nav .nav-link{
+  	font-size: 13px;
+  	text-transform: uppercase;
+  	margin-left: 13px;
+  	color:#0facef;
+
+  	font-weight: bold;
+  }
+ .navbar-nav .active> .nav-link{
+  	color: #ec1c23!important ;
+  }
+
+/* End navbar*/
+ 
+/* start Slider*/
+.slider-content{
+	background-color: #DDD;
+	position: relative;
+}
+ .slider .carousel-indicators li {
+	height: 7px;
+	cursor: pointer;
+}
+
+/* End slider */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* start overView*/
+.overview{
+	padding: 50px 0 ;
+	background-color: #f0f5f7;
+}
+
+.overview h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+@media (max-width: 992px){
+	.overview h2{
+	font-size: 20px;
+   margin-bottom:12px;
+
+}
+}
+.overview p{
+	line-height: 2;
+	font-size: 16px;
+	width: 55%;
+	text-align: justify;
+
+
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto 15px ;
+	color: #6a6a6a;
+
+}
+@media (max-width: 992px){
+	.overview p{
+
+	width: 100%;
+	
+
+}
+}
+.overview h4{
+	letter-spacing: 2px;
+	color: #8b8a8a;
+	margin-bottom: 40px;
+
+}
+.overview button{
+background-color: #ed1d24;
+color: #FFF;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: bold;
+border:1px solid #ed1d24;
+
+}
+/* end overView*/
+/* start PORTFOLIO*/
+.OUR-PORTFOLIO{
+	padding: 100px 0 ;
+}
+.OUR-PORTFOLIO h2{
+	font-size: 35px;
+	
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.OUR-PORTFOLIO p{
+	line-height: 1.6;
+	font-size: 16px;
+	width: 55%;
+	text-align: justify;
+   
+	font-weight: bold;
+	margin: 0 auto 15px ;
+	color: #6a6a6a;
+
+}
+ @media (max-width: 992px){
+	.OUR-PORTFOLIO p{
+		
+		width: 100%;
+      margin-bottom: 10px;
+
+}
+
+}
+
+.OUR-PORTFOLIO ul{
+	margin-top: 40px;
+	margin-bottom: 50px;/* 3shan el pic  ele t7thom ykono b3ad 3nhom*/
+
+}
+.OUR-PORTFOLIO ul li {
+ color: #0facef;
+ border-width: 2px;
+ border-style: solid;
+ border-color:#0facef;
+margin-left: 10px;
+margin-bottom: 10px; /* hade 3shan lma as3'er elshasheh*/
+transition:  all .3s ease-in-out;
+
+
+}
+
+.OUR-PORTFOLIO ul li.active , /* r7 y3mal 3la el li el active w ele b2shar 3leha */
+.OUR-PORTFOLIO ul li:hover 
+ {
+ background-color: #ec1c23 ;
+ border : 3px solid #ec1c23 ;
+ color: #FFF;
+
+}
+
+@media (max-width: 992px)){
+	.OUR-PORTFOLIO  .shuffle-imgs img{
+
+		width: 100%;
+      margin-bottom: 10px; }
+
+}
+/* end PORTFOLIO*/
+
+/* start Latest-post*/
+.Our-Pation{
+	padding: 0 0 50px ;
+}
+
+.Our-Pation h2{
+	font-size: 35px;
+	
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.Our-Pation .section-discription{
+	line-height: 1.6;
+	font-size: 16px;
+	width: 55%;
+	text-align: justify;
+   
+	font-weight: bold;
+	margin: 0 auto 15px ;
+	color: #6a6a6a;
+
+}
+ @media (max-width: 992px){
+	.Our-Pation .section-discription{
+		width: 100%;
+      margin-bottom: 10px;
+      font-size: 15px;
+
+}
+
+}
+.Our-Pation .card {
+margin-bottom: 10px;
+}
+ .Our-Pation .card .card-title{
+	font-size: 17px;
+	line-height: 1.5;
+	color: #0facef;
+
+
+}
+ .Our-Pation .card .card-text{
+		color: #787878;
+
+
+}
+
+.Our-Pation .card .btn{
+	margin-bottom: 10px;
+color:#ec1c23;
+font-weight: bold;
+}
+/* end  Our-Pation*/
+
+
+ /* start  Latest-post*/
+ .Latest-post{
+	padding: 0 0 50px ;
+}
+
+
+.Latest-post h2{
+	font-size: 35px;
+	
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.Latest-post .section-discription{
+	line-height: 1.6;
+	font-size: 16px;
+	width: 55%;
+	text-align: justify;
+   
+	font-weight: bold;
+	margin: 0 auto 15px ;
+	color: #6a6a6a;
+
+}
+ @media (max-width: 992px){
+	.Latest-post .section-discription{
+		width: 100%;
+      margin-bottom: 10px;
+
+}
+
+}
+  /* end  Latest-post*/
+
+/*Start Testimonilas*/
+.Testimonilas .carousel-caption { /* hade 3shan yejee alwasa6*/
+	top: 50%;
+	margin-top: -100px; /* hade nos masa7at el carousol */
+	margin-right:400px;
+
+}
+
+.Testimonilas .carousel-caption img {
+margin-bottom: 20px;
+}
+
+
+.Testimonilas .carousel-caption h3 {
+margin-bottom: 10px;
+color:  #808080;
+font-weight: bold;
+font-size: 20px;
+}
+
+.Testimonilas .carousel-caption span {
+margin-bottom: 20px;
+font-size: 20px;
+color:#ec1c23; 
+display: inline-block;
+margin-bottom: 30px;
+font-weight: bold;
+}
+
+
+.Testimonilas .carousel-caption p {
+margin-bottom: 20px;
+font-size: 17px;
+ color: #6a6a6a;
+display: inline-block;
+margin-bottom: 30px;
+font-weight: bold;
+}
+/*End Testimonilas*/
+
+
+/* start price*/
+.PRICING-PLANS{
+background-color: #f7f7f7;
+padding:5% 0%;
+}
+.PRICING-PLANS h2{
+	font-size: 35px;
+	
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+ @media (max-width: 992px){
+
+.PRICING-PLANS h2{
+		padding-top: 10px;
+	
+
+}
+
+}
+
+.PRICING-PLANS .section-discription{
+	line-height: 1.6;
+	font-size: 16px;
+	width: 55%;
+	text-align: justify;
+   
+	font-weight: bold;
+	margin: 0 auto 15px ;
+	color: #6a6a6a;
+
+}
+ @media (max-width: 992px){
+	.PRICING-PLANS .section-discription
+
+	{
+		
+		width: 100%;
+      margin-bottom: 10px;
+
+}
+
+}
+.PRICING-PLANS .card {
+	margin-bottom: 10px;
+
+	padding: 0;
+
+}
+
+ @media (max-width: 992px){
+	.PRICING-PLANS .card{
+		
+		padding:0 auto 10px;
+
+}
+
+}
+
+ .PRICING-PLANS .card .card-title{
+	font-size: 25px;
+	line-height: 1.5;
+	color:#0facef;
+
+
+
+}
+ .PRICING-PLANS .card .card-text{
+ 	    margin: 30px 0;
+		color: #0facef;
+		background-color: #f7f7f7;
+		padding:10px; 
+		font-weight: bold;
+		font-size: 30px;
+
+
+
+
+
+}
+
+.PRICING-PLANS .card .card-text span{
+		color: #ec1c23 !important;
+
+
+}
+
+.PRICING-PLANS .card .card-link {
+	background-color: #ec1c23;
+	font-weight: bold;
+	display: inline-block;
+	padding:10px 15px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	color: #FFF;
+	font-size: 18px;
+	text-transform: uppercase;
+
+} 
+.PRICING-PLANS .card .btn{
+    margin: 30px 0;
+		color: #0facef;
+		background-color: #f7f7f7;
+		padding:10px; 
+		font-weight: bold;
+		font-size: 30px;
+	}
+/* end  price*/
+
+
+/*Start appointment*/
+
+ 
+.appointment{
+/*background-color: #f7f7f7;*/
+	padding: 100px ;
+}
+ 
+.appointment h2{
+	padding-top: -50px;
+
+}
+
+
+
+.appointment .form-control{
+	border-radius: 0;
+	border:none;
+	box-shadow: none;
+	border-bottom: 1px solid #CCC;
+	margin: 0 auto 70px;  /* 7ta yeje blwasat*/
+}
+
+.appointment form{
+	 width: 100%;
+	background-color: #FFF;
+	border-radius: 5PX;
+	overflow: hidden;
+}
+.appointment form h2{
+	font-size: 20px;
+	padding: 10px;
+	font-weight: bold;
+	color: #0facef;
+	margin-bottom: 30PX;
+}
+.appointment form span{
+color:#ec1c23; 
+}
+
+.appointment form input[type="submit"]{
+	background-color: #ec1c23;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 15px;
+
+
+}
+
+/*start contact*/
+.contact-us {
+	padding: 70px 0;
+	background-color: #ec1c23;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.contact-us  p{
+ margin: 0;
+
+}
+@media(max-width: 992px){
+ .contact-us  p{
+ 	
+ 	margin-bottom: 17px;
+
+
+}
+
+}
+ .contact-us  a{
+	color:#FFF;
+	padding: 8px 15px;
+    text-transform: uppercase;
+	font-weight: bold;
+	border:1px solid #FFF;
+	text-decoration: none;
+
+
+}
+
+@media(max-width: 992px){
+ .contact-us  a{
+ 	border:none;
+
+
+}
+
+}
+   
+/*end contact*/
+/*Start Footer*/
+
+.footer{
+	padding: 100px 0 ;
+	background-color: #f7f7f7;
+
+}
+
+@media(max-width: 992px){
+ .footer {
+ padding: 15px;
+ font-size: 14px;
+ margin: 5px 0 ;
+
+
+}
+
+}
+ .footer .site-info > span {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.footer .site-info span:first-of-type{
+ /* laneh mosh awal 3nsor  wala a5er 3nsor fe pargraph b3de el span 
+ ezan  first of type awal span last of type tane span 
+	*/
+ font-weight: bold;
+  color:#0facef;
+ 
+  }
+
+.footer .site-info span:last-of-type{
+  color: #ec1c23 ;
+  
+
+  }
+
+  .footer .site-info p{
+  line-height: 1.7;
+  color: #727272;
+  
+
+  }
+  
+  @media(max-width: 992px){
+.footer .site-info p{
+
+ font-size:17px;
+
+
+}
+
+}
+ .fa-chevron-circle-right  {
+   color:#0facef;
+    font-weight: bold;
+   
+    margin-right :5px;
+  }
+
+  .footer .site-info a{
+  color:#0facef;
+  font-weight: bold;
+  }
+
+  .footer .helpful-link h2,.footer .contact h2
+
+  {
+   font-size: 20px;
+   font-weight: bold;
+  color: #0facef;
+   margin-bottom: 20px;
+
+}
+
+@media(max-width: 992px){
+ .footer .helpful-link h2,.footer .contact h2
+{
+margin-bottom: 10px;
+margin-top: 20px;
+ font-size:17px;
+
+
+}
+  .footer .contact ul li {
+  	margin: 5px;
+  }
+}
+
+
+
+.footer .contact ul li {
+ margin-bottom: 20px;
+}
+
+
+
+/*End  Footer*/
+/*start copyrghit*/
+.copy-right{
+	border-top: 1px solid #333;
+	padding: 30px;
+	padding-bottom: 20px;
+
+
+}
+.copy-right p{
+	padding-bottom:0px;
+
+
+}
+.copy-right ul{
+	margin: 0;
+
+}
+.copy-right ul li  {
+
+	display: inline-block;
+
+}
+.copy-right ul li a  {
+	
+	color: #777;
+	margin-left: 20px;
+
+}
+
+.fa-facebook-square{
+font-size: 25px;
+
+}
+.fa-youtube-square{
+font-size: 25px;
+
+}
+.fa-twitter-square{
+font-size: 25px;
+
+}
+/*end copyrghit*/
